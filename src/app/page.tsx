@@ -7,8 +7,6 @@ import Checkout from "@/components/Checkout";
 import AdvanceArea from "@/components/AdvanceArea";
 import OfferOne from "@/components/OfferOne";
 import FeatureOne from "@/components/FeatureOne";
-import PackageOne from "@/components/PackageOne";
-import ClientOne from "@/components/ClientOne";
 import AboutOne from "@/components/AboutOne";
 import AboutThree from "@/components/AboutThree";
 import BrandPortal from "@/components/BrandPortal";
@@ -74,11 +72,7 @@ export default function Home() {
       {/* FeatureOne */}
       <FeatureOne />
 
-      {/* PackageOne */}
-      <PackageOne />
 
-      {/* ClientOne */}
-      <ClientOne />
 
       {/* AboutOne */}
       <AboutOne />

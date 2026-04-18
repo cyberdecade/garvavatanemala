@@ -87,15 +87,15 @@ const DiningInner: FC = () => {
             <div className='col-xl-6'>
               <div className='dining-thumb-wrapper position-relative z-1 tw_fade_anim' data-delay=".3">
                 <Image
-                  width={600}
-                  height={800}
-                  src='/assets/images/thumbs/about-three-thumb3.webp'
+                  width={550}
+                  height={500}
+                  src='/assets/images/thumbs/gamla-garden-cafe-main.webp'
                   alt='Gamla Garden Cafe'
                   className='tw-rounded-3xl tw-shadow-2xl'
                 />
-                <div className='exclusive-badge position-absolute top-0 start-0 tw-m-8 bg--white text-heading fw-bold tw-py-4 tw-px-8 tw-rounded-full shadow-lg'>
+                {/* <div className='exclusive-badge position-absolute top-0 start-0 tw-m-8 bg--white text-heading fw-bold tw-py-4 tw-px-8 tw-rounded-full shadow-lg'>
                   Quirky & Creative
-                </div>
+                </div> */}
               </div>
             </div>
             <div className='col-xl-6'>

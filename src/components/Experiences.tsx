@@ -5,24 +5,34 @@ import Link from "next/link";
 
 const experiences = [
   {
-    title: "Bullock Cart Ride",
+    title: "Bullock Cart Riding",
     desc: "Experience the timeless rhythm of rural commute through our lush organic fields.",
     icon: "ph ph-sketch-logo",
   },
   {
-    title: "Tractor Farm Tour",
-    desc: "A sprawling exploration of our vast agro-landscapes on a traditional farm tractor.",
+    title: "Farm Safari",
+    desc: "An adventurous tour across our sprawling agro-landscapes and hidden natural spots.",
+    icon: "ph ph-jeep",
+  },
+  {
+    title: "Animal Ranch",
+    desc: "Get close to nature at our ranch—interact with farm animals in a serene environment.",
+    icon: "ph ph-horse",
+  },
+  {
+    title: "Yoga & Wellness",
+    desc: "Reconnect with your inner self with guided yoga sessions amidst the Mulshi mountains.",
+    icon: "ph ph-flower-lotus",
+  },
+  {
+    title: "Tractor Rides",
+    desc: "A fun and authentic exploration of our vast farmlands on a traditional farm tractor.",
     icon: "ph ph-castle-turret",
   },
   {
-    title: "Bird Watching",
-    desc: "Mulshi is a bird's paradise. Discover rare species nestled in the mountain canopy.",
-    icon: "ph ph-binoculars",
-  },
-  {
-    title: "Chulha Cooking",
-    desc: "Learn the art of slow fire cooking with our traditional earthen stoves and recipes.",
-    icon: "ph ph-fire",
+    title: "Farming Activities",
+    desc: "Get your hands dirty with seasonal sowing, harvesting, and traditional farming rituals.",
+    icon: "ph ph-leaf",
   },
 ];
 
@@ -58,7 +68,7 @@ const Experiences: FC = () => {
 
         <div className="row justify-content-center gy-5">
           {experiences.map((exp, index) => (
-            <div key={index} className="col-xl-3 col-lg-6 col-md-6">
+            <div key={index} className="col-xl-4 col-lg-6 col-md-6">
               <div className="exp-card tw-group tw-p-8 tw-rounded-3xl tw-bg-main-50 tw-border tw-border-main-100 hover:tw-bg-main-600 tw-transition-all tw-duration-500 tw-h-full">
                 <div className="exp-icon tw-w-16 tw-h-16 tw-rounded-2xl tw-bg-white tw-flex tw-items-center tw-justify-center tw-text-3xl tw-text-main-600 tw-mb-8 group-hover:tw-bg-main-700 group-hover:tw-text-white tw-transition-colors shadow-sm">
                   <i className={exp.icon} />

@@ -5,7 +5,6 @@ import Preloader from "@/helper/Preloader";
 import HeaderOne from "@/components/HeaderOne";
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/FooterOne";
-import MarqueeFour from "@/components/MarqueeFour";
 import GalleryInner from "@/components/GalleryInner";
 import DiscoverOne from "@/components/DiscoverOne";
 
@@ -45,8 +44,6 @@ const Page: React.FC = () => {
       <GalleryInner />
       <DiscoverOne />
 
-      {/* MarqueeFour */}
-      <MarqueeFour />
 
       {/* FooterOne */}
       <FooterOne />

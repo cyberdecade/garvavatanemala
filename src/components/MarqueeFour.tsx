@@ -8,7 +8,7 @@ const MarqueeFour: FC = () => {
       className='overflow-hidden position-relative z-2'
       style={{ background: "#f7f7ee" }}
     >
-      <div className='marquee'>
+      {/* <div className='marquee'>
         <Marquee>
           <div className='d-inline-flex align-items-center tw-gap-14 tw-pb-25'>
             <div className='marquee-icon'>
@@ -45,12 +45,12 @@ const MarqueeFour: FC = () => {
             </div>
           </div>
         </Marquee>
-      </div>
+      </div> */}
       <div className='marquee-three-2-bg'>
         <Image
           width={1920}
-          height={682}
-          src='/assets/images/thumbs/marquee-three-2-bg.jpg'
+          height={482}
+          src='/assets/images/thumbs/slider-2.webp'
           alt='bg'
         />
       </div>
