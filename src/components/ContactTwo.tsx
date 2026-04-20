@@ -131,7 +131,7 @@ const ContactTwo: FC = () => {
           width={831}
           height={929}
           className='w-100 h-100 object-fit-cover'
-          src='/assets/images/thumbs/contact-three-bg.jpg'
+          src='/assets/images/thumbs/bird-house-room-1.webp'
           alt='bg'
         />
       </div>

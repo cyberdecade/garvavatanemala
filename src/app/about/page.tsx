@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import AOSWrap from "@/helper/AOSWrap";
 import Preloader from "@/helper/Preloader";
 import HeaderOne from "@/components/HeaderOne";
-import Breadcrumb from "@/components/Breadcrumb";
 import AboutTwo from "@/components/AboutTwo";
 import FeatureOne from "@/components/FeatureOne";
 import AboutOne from "@/components/AboutOne";
@@ -48,13 +47,28 @@ const Page: React.FC = () => {
       {/* HeaderOne */}
       <HeaderOne />
 
-      {/* Breadcrumb */}
-      <Breadcrumb title='About Us' sub_title='Experience the Story' />
+      {/* About Title Section */}
+      <section className='about-title-section pt-60'>
+        <div className='container'>
+          <div className='row justify-content-center'>
+            <div className='col-xl-8'>
+              <div className='section-wrapper text-center tw-mb-14 tw_fade_anim'>
+                <h6 className='section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600'>
+                  Experience the Story
+                </h6>
+                <h2 className='section-title fw-normal'>
+                  About Us
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Checkout */}
-      <section className='checkout-area_bg'>
+      {/* <section className='checkout-area_bg'>
         <Checkout />
-      </section>
+      </section> */}
 
       {/* AboutTwo */}
       <AboutTwo />
@@ -84,10 +98,10 @@ const Page: React.FC = () => {
       {/* ContactTwo */}
       <ContactTwo />
 
-      {/* ClientTwo */}
+      {/* ClientTwo
       <div className='pt-60 client_two'>
         <ClientTwo />
-      </div>
+      </div> */}
 
       {/* FooterOne */}
       <FooterOne />
